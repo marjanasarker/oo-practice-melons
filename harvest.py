@@ -28,7 +28,7 @@ class MelonType(object):
 
     def update_code(self, new_code):
         """Replace the reporting code with the new_code."""
-        super().code()
+        self.code = name, code
         # Fill in the rest
 
 class Muskmelon(MelonType):
@@ -52,7 +52,7 @@ def make_melon_types():
 
 def print_pairing_info(melon_types):
     """Prints information about each melon type's pairings."""
-         super().name = name
+         supe
     # Fill in the rest
 
 def make_melon_type_lookup(melon_types):

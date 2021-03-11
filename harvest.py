@@ -13,22 +13,38 @@ class MelonType(object):
         self.pairings = []
 
         # Fill in the rest
+        self.code = code
+        self.first_harvest = first_harvest
+        self.color = color
+        self.is_seedless = is_seedless
+        self.is_bestseller = is_bestseller
+        self.name = name
 
     def add_pairing(self, pairing):
         """Add a food pairing to the instance's pairings list."""
-
+        super().pairings()
+            
         # Fill in the rest
 
     def update_code(self, new_code):
         """Replace the reporting code with the new_code."""
-
+        super().code()
         # Fill in the rest
 
+class Muskmelon(MelonType):
+
+class Casaba(MelonType):
+
+class Creenshaw(MelonType): 
+
+class YellowWatermelon(MelonType):
 
 def make_melon_types():
     """Returns a list of current melon types."""
 
     all_melon_types = []
+         if all_melon_types in MelonType
+         print(all_melon_types.name)
 
     # Fill in the rest
 
@@ -36,7 +52,7 @@ def make_melon_types():
 
 def print_pairing_info(melon_types):
     """Prints information about each melon type's pairings."""
-
+         super().name = name
     # Fill in the rest
 
 def make_melon_type_lookup(melon_types):
@@ -63,6 +79,8 @@ def get_sellability_report(melons):
     """Given a list of melon object, prints whether each one is sellable."""
 
     # Fill in the rest 
+
+
 
 
 
